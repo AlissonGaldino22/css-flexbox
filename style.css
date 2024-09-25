@@ -4,21 +4,21 @@
     font-size: 3em;
     font-weight: 900;
     font-family: 'Times New Roman', Times, serif;
-    color: rgb(236, 46, 46);
+    color: rgb(111, 0, 255);
     margin: 10px;
 }
 .nome-da-propriedade {
     font-size: 2em;
     font-weight: 500px;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(234, 202, 42);
+    color: rgb(0, 0, 0);
     padding: 20px;
 }
 .valor-da-propriedade {
     font-size: 1,5em;
     font-weight: 400px;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(243, 159, 63);
+    color: rgb(111, 0, 255);
     padding: 30px;
 }
 hr {
@@ -26,7 +26,7 @@ hr {
 }
 .bloco1 {
     font: bold;
-    background-color: rgb(110, 100, 252);
+    background-color:darkgreen;
     height: 100px;
     width: 130px;
     text-align: center;
@@ -36,7 +36,7 @@ hr {
 }
 .bloco2 {
     font: bold;
-    background-color: rgb(69, 56, 239);
+    background-color:darkred;
     height: 100px;
     width: 130px;
     text-align: center;
@@ -46,7 +46,7 @@ hr {
 }
 .bloco3 {
     font: bold;
-    background-color: rgb(16, 0, 244);
+    background-color:teal;
     height: 100px;
     width: 130px;
     text-align: center;
@@ -299,4 +299,128 @@ hr {
     background-color: rgb(238, 212, 255);
     padding: 16px;
     height: 500px;
+}
+
+.container-align-content-center{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content:center;
+    /* indiferente */
+    background-color:rgb(238, 212, 255);
+    padding: 16px;
+    height: 500px;
+
+
+}
+
+.container-align-content-flex-start{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content:flex-start;
+    /* indiferente */
+    background-color:rgb(238, 212, 255);
+    padding: 16px;
+    height: 500px;
+
+
+}
+
+/* ctrl D muda as mesma palavras */
+
+.container-align-content-flex-end{ /*mudo aqui */
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content:flex-end; /*mudo aqui */
+    /* indiferente */
+    background-color:rgb(238, 212, 255);
+    padding: 16px;
+    height: 500px;
+
+
+}
+
+
+
+.container-align-content-space-between{ /*mudo aqui */
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content:space-between; /*mudo aqui */
+    /* indiferente */
+    background-color:rgb(238, 212, 255);
+    padding: 16px;
+    height: 500px;
+
+
+}
+
+
+.container-align-content-space-around{ /*mudo aqui */
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content:space-around; /*mudo aqui */
+    /* indiferente */
+    background-color:rgb(238, 212, 255);
+    padding: 16px;
+    height: 500px;
+
+
+}
+
+
+
+.container-align-content-space-evenly{ /*mudo aqui */
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content:space-evenly; /*mudo aqui */
+    /* indiferente */
+    background-color:rgb(238, 212, 255);
+    padding: 16px;
+    height: 500px;
+
+
+}
+
+
+
+nav ul li{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    align-content:space-evenly; /*mudo aqui */
+    /* indiferente */
+    background-color:rgb(151, 44, 222);
+    padding: 20px;
+    gap: 100px;
+
+}
+
+
+a{
+     text-align: center;
+    font-style:normal;
+    font-size: 20px;
+    font-weight: 900;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(3, 3, 3);
+    margin: 4px;
+
 }
